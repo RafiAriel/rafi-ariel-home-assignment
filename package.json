@@ -1,0 +1,17 @@
+{
+  "name": "rafi-ariel-home-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rafi Ariel home assignment",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "author": "Rafi Ariel",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
